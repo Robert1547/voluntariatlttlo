@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echipa de Voluntariat LTTLO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2a9d8f;
+      --secondary: #264653;
+      --accent: #e9c46a;
+      --light: #f4f4f4;
+      --dark: #1b1b1b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+      background-color: var(--secondary);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    header h1 {
+      margin-top: 1rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    nav {
+      background-color: var(--primary);
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section h2 {
+      color: var(--secondary);
+      margin-bottom: 1rem;
+      border-left: 6px solid var(--primary);
+      padding-left: 10px;
+    }
+
+    section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      background-color: var(--primary);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: var(--secondary);
+    }
+
+    footer {
+      background-color: var(--secondary);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .contact-info a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contact-info a:hover {
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Echipa de Voluntariat LTTLO">
+    <h1>Echipa de Voluntariat LTTLO</h1>
+    <p>„Do Good. Feel Good.”</p>
+  </header>
+
+  <nav>
+    <a href="#despre">Despre noi</a>
+    <a href="#activitati">Activități și beneficii</a>
+    <a href="#inscriere">Înscriere</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="despre">
+    <h2>Despre noi</h2>
+    <p>
+      Echipa de Voluntariat LTTLO este formată din elevi dedicați care își doresc să aducă o schimbare pozitivă în comunitate. 
+      Prin implicare, muncă de echipă și empatie, reușim să construim proiecte care inspiră și ajută.
+    </p>
+    <p>
+      Suntem uniți de dorința de a face bine și de a ne dezvolta personal și profesional. Fiecare membru contează, iar fiecare acțiune are impact.
+    </p>
+  </section>
+
+  <section id="activitati">
+    <h2>Despre activități și beneficii</h2>
+    <p>
+      Activitățile noastre includ campanii de strângere de fonduri, activități de ecologizare, ajutor pentru persoanele în nevoie, 
+      dar și proiecte educaționale și culturale.
+    </p>
+    <p>
+      Voluntarii noștri dobândesc abilități valoroase: lucru în echipă, comunicare, leadership și organizare. 
+      În plus, fac parte dintr-o familie unită care împărtășește aceleași valori.
+    </p>
+  </section>
+
+  <section id="inscriere">
+    <h2>Formular de înscriere</h2>
+    <p>
+      Dacă vrei să te alături echipei noastre, completează formularul de mai jos și te vom contacta cât mai curând!
+    </p>
+    <div class="cta">
+      <a href="https://docs.google.com/forms/d/e/FORMULARUL_TAU/viewform" target="_blank">Completează formularul</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Pentru întrebări sau colaborări, ne poți contacta:</p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:echipa.voluntariat@lttlo.ro">echipa.voluntariat@lttlo.ro</a></p>
+      <p>Instagram: <a href="https://instagram.com/echipavoluntariatlttlo" target="_blank">@echipavoluntariatlttlo</a></p>
+      <p>Facebook: <a href="https://facebook.com/echipavoluntariatlttlo" target="_blank">Echipa de Voluntariat LTTLO</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Echipa de Voluntariat LTTLO — „Do Good. Feel Good.”
+  </footer>
+</body>
+</html>
